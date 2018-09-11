@@ -1,0 +1,13 @@
+{
+  "name": "lanifly",
+  "productName": "Lanifly",
+  "version": "0.1.0",
+  "description": "dva-boot gui tools",
+  "main": "./main.prod.js",
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
